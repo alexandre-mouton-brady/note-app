@@ -1,0 +1,21 @@
+{
+    "name": "note-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "^16.1.1",
+        "react-dom": "^16.1.1",
+        "react-draggable": "^3.0.3",
+        "react-scripts": "1.0.17"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "deploy": "push-dir --dir=build --branch=gh-pages --cleanup"
+    },
+    "devDependencies": {
+        "push-dir": "^0.4.1"
+    }
+}
